@@ -140,7 +140,7 @@ flex-wrap:wrap;
 .btn{
 display:inline-block;
 padding:15px 38px;
-background:#73a5ff;
+background:#8b5cf6;
 color:#fff;
 text-decoration:none;
 border-radius:50px;
@@ -150,12 +150,12 @@ transition:all .35s ease;
 
 .secondary{
 background:transparent;
-border:2px solid #73a5ff;
+border:2px solid #8b5cf6;
 }
 
 .btn:hover{
 transform:translateY(-6px);
-box-shadow:0 10px 35px rgba(115,165,255,.45);
+box-shadow:0 10px 35px rgba(139,92,246,.5);
 filter:brightness(1.1);
 }
 
