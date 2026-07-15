@@ -26,6 +26,14 @@ background:
 radial-gradient(circle,#7c3aed55 0%,transparent 35%),
 radial-gradient(circle at 80% 30%,#3b82f655 0%,transparent 35%),
 radial-gradient(circle at 40% 80%,#ec489955 0%,transparent 35%);
+filter:blur(140px);
+z-index:-1;
+}
+
+background:
+radial-gradient(circle,#7c3aed55 0%,transparent 35%),
+radial-gradient(circle at 80% 30%,#3b82f655 0%,transparent 35%),
+radial-gradient(circle at 40% 80%,#ec489955 0%,transparent 35%);
 
 filter:blur(140px);
 
@@ -189,6 +197,7 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
 gap:25px;
 }
+
 .card,
 .project{
 background:rgba(255,255,255,.05);
