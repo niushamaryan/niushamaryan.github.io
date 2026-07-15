@@ -7,7 +7,7 @@ scroll-behavior:smooth;
 
 body{
 font-family:'Poppins',sans-serif;
-background:#09090b;
+background:#111827;
 color:#fff;
 overflow-x:hidden;
 }
@@ -17,12 +17,18 @@ overflow-x:hidden;
 
 .bg{
 position:fixed;
-width:700px;
-height:700px;
-background:#4f7dff44;
-filter:blur(220px);
+width:900px;
+height:900px;
 top:-250px;
-left:-200px;
+left:-250px;
+
+background:
+radial-gradient(circle,#7c3aed55 0%,transparent 35%),
+radial-gradient(circle at 80% 30%,#3b82f655 0%,transparent 35%),
+radial-gradient(circle at 40% 80%,#ec489955 0%,transparent 35%);
+
+filter:blur(140px);
+
 z-index:-1;
 }
 
