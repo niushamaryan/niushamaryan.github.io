@@ -99,8 +99,11 @@ transition:.3s;
 }
 
 .btn:hover{
-transform:translateY(-5px);
-box-shadow:0 10px 30px rgba(115,165,255,.35);
+
+transform:translateY(-6px);
+
+box-shadow:0 10px 35px rgba(115,165,255,.45);
+
 }
 
 section{
